@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sementes do Futuro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🌱 Sementes do Futuro</h1>
+  <p>Tecnologia, agricultura e sustentabilidade para um mundo melhor.</p>
+</header>
+
+<section>
+  <h2>Agricultura Sustentável</h2>
+  <p>
+    A agricultura sustentável ajuda a produzir alimentos de forma responsável,
+    preservando o solo, a água e os recursos naturais para as próximas gerações.
+  </p>
+</section>
+
+<section>
+  <h2>Práticas Sustentáveis</h2>
+  <ul>
+    <li>Rotação de culturas</li>
+    <li>Economia de água</li>
+    <li>Uso de energia renovável</li>
+    <li>Proteção do solo e da biodiversidade</li>
+  </ul>
+</section>
+
+<section class="quiz">
+  <h2>Quiz Sementes do Futuro</h2>
+
+  <p>1. Qual prática ajuda a preservar o solo?</p>
+  <button onclick="responder(1,true)">Rotação de culturas</button>
+  <button onclick="responder(1,false)">Queimadas</button>
+
+  <p>2. O que reduz o desperdício de água?</p>
+  <button onclick="responder(2,true)">Irrigação eficiente</button>
+  <button onclick="responder(2,false)">Vazamentos</button>
+
+  <p>3. Qual energia é considerada sustentável?</p>
+  <button onclick="responder(3,true)">Energia Solar</button>
+  <button onclick="responder(3,false)">Combustíveis poluentes</button>
+
+  <br><br>
+  <button onclick="mostrarResultado()">Ver Resultado</button>
+
+  <h3 id="resultado"></h3>
+</section>
+
+<footer>
+  <p>Sementes do Futuro © 2026</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
